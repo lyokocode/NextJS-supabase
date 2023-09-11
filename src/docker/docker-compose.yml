@@ -9,8 +9,6 @@ services:
     environment:
 
       POSTGRES_USER: postgres
-      # POSTGRES_NAME: db.qckjqgzozmgmxoxlnxaz.supabase.co
       POSTGRES_NAME: postgres
       POSTGRES_PASSWORD: aelita.next-auth
-      -ports:
-        - 5432:5432
+      ports: "5432:5432"
